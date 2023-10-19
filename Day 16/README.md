@@ -1,4 +1,4 @@
-# Day 17 - The Quiz Project & The Benefits of OOP
+# Day 16 - The Quiz Project & The Benefits of OOP
 ## Concepts Practised
 - How to create a Class in Python
 - Working with Attributes, Class Constructors and the __init__() Function
