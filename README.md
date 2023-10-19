@@ -23,4 +23,6 @@ Most projects ideas come from the Udemy course: [100 Days of Code: The Complete 
 - [Day 13:] Higher Lower Game Project
 - [Day 14:] Local Development Environment Setup & the Coffee Machine
 
-## To be Continued 
+## 📚 Intermediate
+- [Day 15:] Object Oriented Programming (OOP)
+- [Day 16:] The Quiz Project & The Benefits of OOP
