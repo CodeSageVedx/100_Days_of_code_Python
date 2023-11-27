@@ -5,7 +5,7 @@ STOCK_NAME = "TSLA"
 STOCK_ENDPOINT = "https://www.alphavantage.co/query"
 NEWS_ENDPOINT = "https://newsapi.org/v2/everything"
 ALPHA_VANTAGE_APIKEY = "****************"
-NEWS_APIKEY = "********************************"
+NEWS_APIKEY = "438ce221cf1b43deade392ff2e0ad445"
 
 
 def telegram_bot_send_text(bot_message):
