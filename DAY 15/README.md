@@ -1,4 +1,4 @@
-# Day 15 - Object Oriented Programming (OOP)
+# Day 15  - Object Oriented Programming (OOP)
 ## Concepts Practised
 - Classes and Objects
 - Constructing Objects and Accessing their Attributes and Methods
