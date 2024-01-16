@@ -1,28 +1,21 @@
-class Solution():
-    @staticmethod
-    def threeSum(nums):
-        """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
-        """
-
-        counter=0
-        for i in nums:
-            counter+=1
-
-        #combination=[]
-        
-        all_combinations=[]
-        
-        for i in range(counter):
-            for j in range(i+1,counter):
-                for z in range(j+1,counter):
-                    if nums[i]+nums[j]+nums[z]==0:
-                        combination=[]
-                        combination.append(nums[i])
-                        combination.append(nums[j])
-                        combination.append(nums[z])
-                        all_combinations.append(combination)
-        
-        return all_combinations 
+class Solution:
+    def threeSum(self, nums: List[int]) -> List[List[int]]:
+        target = 0
+        nums.sort()
+        s = set()
+        output = []
+        for i in range(len(nums)):
+            j = i + 1
+            k = len(nums) - 1
+            while j < k:
+                sum = nums[i] + nums[j] + nums[k]
+                if sum == target:
+                    s.add((nums[i], nums[j], nums[k]))
+                    j += 1
+                    k -= 1
+                elif sum < target:
+                    j += 1
+                else:
+                    k -= 1
+        output = list(s)
+        return output
